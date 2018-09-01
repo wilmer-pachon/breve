@@ -1,0 +1,43 @@
+﻿body {
+}
+body {
+}
+
+.css_button {
+    font-size: 16px;
+    font-family: Trebuchet MS;
+    font-weight: normal;
+    text-decoration: inherit;
+    -webkit-border-radius: 8px 8px 8px 8px;
+    -moz-border-radius: 8px 8px 8px 8px;
+    border-radius: 8px 8px 8px 8px;
+    border: 1px solid #00FF99;
+    padding: 9px 18px;
+    text-shadow: 1px 1px 0px #689324;
+    -webkit-box-shadow: inset 1px 1px 0px 0px #C1ED9C;
+    -moz-box-shadow: inset 1px 1px 0px 0px #C1ED9C;
+    box-shadow: inset 1px 1px 0px 0px #C1ED9C;
+    cursor: pointer;
+    color: #000000;
+    display: inline-block;
+    background: -webkit-linear-gradient(90deg, #FFFFFF 5%, #00FF99 100%);
+    background: -moz-linear-gradient(90deg, #FFFFFF 5%, #00FF99 100%);
+    background: -ms-linear-gradient(90deg, #FFFFFF 5%, #00FF99 100%);
+    background: linear-gradient(180deg, #00FF99 5%, #FFFFFF 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#00FF99",endColorstr="#FFFFFF");
+}
+
+.css_button:hover {
+    background: -webkit-linear-gradient(90deg, #00FF99 5%, #FFFFFF 100%);
+    background: -moz-linear-gradient(90deg, #00FF99 5%, #FFFFFF 100%);
+    background: -ms-linear-gradient(90deg, #00FF99 5%, #FFFFFF 100%);
+    background: linear-gradient(180deg, #FFFFFF 5%, #00FF99 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#FFFFFF",endColorstr="#00FF99");
+}
+
+.css_button:active {
+    position:relative;
+    top: 1px;
+}
+
+

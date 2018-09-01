@@ -1,0 +1,131 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="~/Logica/MasterAdmin.master.cs" 
+Inherits="Presentacion_MasterAdmin" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title>breve.</title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        body
+        {
+        	overflow-x:hidden;
+        }
+
+        .style1
+        {
+            width: 100%;
+        }
+        .style3
+        {
+            height: 70%;
+            width: 20%;
+        }
+        .style4
+        {
+            width: 33%;
+            height: 20%;
+        }
+        .style5
+        {
+            border: none;
+        }
+        
+        .button1
+        {
+        
+	        background-color: #f0f0f0;
+	        border-radius: 5px;
+	        position:absolute;
+	        padding: 3px 3px;
+	        top: auto;
+	        left:600px;
+	        
+	      font-family:  Century Gothic;
+          color: #000000;
+          text-decoration: none;
+          text-transform: uppercase;
+          text-shadow: 0 1px 0 #fff;
+          font-size: 7px;
+          font-weight: 100;
+        }
+        .button1:hover
+        {
+        	background-color: #00ff99;
+        }
+        
+        .style6
+        {
+            height: 70%;
+            width: 20%;
+        }
+        
+        .style7
+        {
+            height: 70%;
+            width: 20%;
+            font-weight: normal;
+            text-align: center;
+        }
+        
+    </style>
+    <link href="../App_Themes/Tema1/Prueba.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <form id="form1" runat="server">
+    
+    <table class="style1" frame="border" bgcolor="White" border="0">
+        <tr bgcolor="#00FF99" align="center" dir="ltr" class="style5">
+            <td class="style4" colspan="2">
+                <asp:ImageButton ID="IB_Salir" runat="server" Height="28px" 
+                ImageUrl="~/Imagenes/breve/OffAdmin.png" Width="28px" 
+                    onclick="IB_Salir_Click"  />
+            </td>
+            <td class="style4">
+                <asp:ImageButton ID="IB_InicioUser" runat="server" Height="46px" 
+                    ImageUrl="~/Imagenes/breveinicio.png" Width="114px" 
+                    PostBackUrl="~/Presentacion/MenuAdmin.aspx" />
+            </td>
+            <td class="style4" colspan="2">
+                <asp:TextBox ID="TB_Buscar" runat="server" Height="25px" Width="78%" 
+                    BackColor="#F4F4FB" BorderColor="#999999" BorderStyle="Dotted" Font-Names="Century Gothic"
+                    value=" Buscar" onfocus="if(this.value==' Buscar')this.value='' "
+                    onblur="if(this.value=='')this.value=' Buscar' "
+                    Font-Size="Medium" ForeColor="#999999" style="height: 27px" MaxLength="30" 
+                    ></asp:TextBox>
+                <asp:ImageButton ID="B_Buscar" runat="server" Height="23px" 
+                    ImageUrl="~/Imagenes/lupa.png" Width="21px" onclick="B_Buscar_Click" 
+                    PostBackUrl="~/Presentacion/Buscar.aspx" />
+            </td>
+        </tr>
+        <tr>
+            <td class="style6" bgcolor="#ECECEC">
+                &nbsp;</td>
+            <td class="style3" bgcolor="White" colspan="3">
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+            <p>
+                <br />
+            </p>
+        
+        </asp:ContentPlaceHolder>
+            </td>
+            <td class="style3" bgcolor="#ECECEC">
+                &nbsp;</td>
+        </tr>
+        <tr>
+            <td class="style7" colspan="5" bgcolor="White">
+                <br />
+                Julián Cañón Guzmán - Dayana Linares Fernandez - Yeison Ruiz Rodriguez<br />
+                Ingeniería de Sistemas<br />
+                <br />
+                Universidad de Cundinamarca<br />
+                Facatativá - Colombia<br />
+                2014</td>
+        </tr>
+        </table>
+    </form>
+    </body>
+</html>

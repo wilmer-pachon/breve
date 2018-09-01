@@ -1,0 +1,322 @@
+﻿body {	font-size: medium;
+	font-weight: 700;
+	font-family: "Century Gothic";
+}
+
+.button1 /*ensayo*/
+        {
+        
+        background-color: #f0f0f0;
+        border-radius: 5px;
+        position:absolute;
+        padding: 3px 3px;
+        top: auto;
+        left:600px;
+	        
+	      font-family:  Century Gothic;
+          color: #000000;
+          text-decoration: none;
+          text-transform: uppercase;
+          text-shadow: 0 1px 0 #fff;
+          font-size: 7px;
+          font-weight: 100;
+        }
+        .button1:hover
+        {
+        	background-color: #00ff99;
+        }
+.hyperlinkver /*Botones SolicitudAdmin*/
+
+ {      background-color :#00ff99;
+        border-radius:6px;
+        box-shadow:0px 5px 0px #00b4a7;
+        /*display:inline-block;   border-bottom-style:inset;*/
+        font-family:Century Gothic;
+        margin:0px 2px 0px 5px;
+        text-decoration:none;
+         padding: 5px 9px;
+ }
+      	.hyperlinkver:link
+      	{
+      		color:#ffffff;
+      		}
+      	.hyperlinkver:hover
+      	{       	  
+      	  
+      	  box-shadow:0px 5px 0px #7a7a7a;
+    	  padding: 3px 9px;
+    	  text-decoration:underline;
+      	  
+      	}
+      	.hyperlinkver:visited
+      	{
+      		color:#7100ec;
+      		}
+      	.hyperlinkver:active
+      	{
+      		background-color:#82ffc4;
+      		}
+ .font   /*Datos GV_ SolicitudAdmin*/
+ {
+ 	font-family:Century Gothic,
+ 	}
+ 
+.CajaMensaje
+{
+		margin:10px 20px 20px 250px;
+		padding:10px;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing:border-box;
+		box-sizing:border-box;
+		resize:none;
+}
+		.CajaMensaje:focus
+		{
+			border:1px solid #00ff99;
+		
+		}
+.BotonEnviarMensaje
+{
+        
+	    background-color:#00ff99;
+        border-radius:6px;
+        box-shadow:0px 7px 0px #00b4a7;
+        margin:10px 20px 20px 350px;
+        padding: 5px 9px;
+        text-decoration:none;     	
+}
+      	
+      	.BotonEnviarMensaje:hover
+      	{       	  
+      	  box-shadow:0px 5px 0px #7a7a7a;
+    	  padding: 3px 9px;
+    	       	  
+      	}
+.CajasSolicitud
+{
+		font-size:medium;
+		margin:0px 0px 20px 210px;
+		padding:10px 10px 10px 15px;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing:border-box;
+		box-sizing:border-box;
+		resize:none;
+		
+}
+		.CajasSolicitud:focus
+		{
+			border:1px solid #00ff99;
+		
+		}
+.CajasSolicitud2
+{
+		font-size:medium;
+		margin:0px 0px 0px 210px;
+		padding:10px 10px 10px 5px;
+		
+		resize:none;
+		
+}
+		.CajasSolicitud2:focus
+		{
+			border:1px solid #00ff99;
+		}
+.BotonAddenSolicitud /* Formulario solicitud (B_Adjuntar) */
+{
+        
+	    font-family: Century Gothic;
+	    font-size:small;
+	    color:white;
+	    background-color:#00ff99;
+        border-radius:6px;
+        box-shadow:0px 5px 0px #00b4a7;
+        padding: 5px 8px;
+        text-decoration:none;
+	margin-left: 650px;
+	margin-right: 0px;
+	margin-bottom: 5px;
+}
+      	
+      	.BotonAddenSolicitud:hover
+      	{       	  
+      	  box-shadow:0px 5px 0px #7a7a7a;
+    	  padding: 3px 8px;
+    	       	  
+      	}
+.GV_Empresa1
+{
+	margin:0px 0px 0px 300px;
+}
+.GV_Empresa2
+{
+	margin:0px 0px 0px 300px;
+}	
+.GV_Empresa3
+{
+	margin:0px 0px 0px 300px;
+}
+.CajasProductos
+{	
+	rezise:none;	
+	font-size:medium;
+	font-family:Century Gothic;
+	margin:10px 20px 20px 170px;
+	padding:10px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+	
+	
+}
+.CajasProductos:focus{
+
+   border:1px solid #00ff99;
+}
+.BotonAddenProductos /* examinar margin-left: 650px; */
+{
+        
+	    font-family: Century Gothic;
+	    font-size:medium;
+	    font-color:white;
+	    background-color:#00ff99;
+        border-radius:6px;
+        box-shadow:0px 5px 0px #00b4a7;
+        margin:0px 0px 0px 540px;
+        
+        padding: 5px 9px;
+        text-decoration:none;     	
+}
+      	
+      	.BotonAddenProductos:hover
+      	{       	  
+      	  box-shadow:0px 5px 0px #7a7a7a;
+    	  padding: 3px 9px;
+    	       	  
+      	}
+.BotonAddenProductos2 /* examinar */
+{
+        
+	    font-family: Century Gothic;
+	    font-size:medium;
+	    margin:0px 0px 0px 170px;
+        padding: 7px 9px;
+        text-decoration:none;     	
+}
+      	
+      	
+.BotonListo
+{
+        
+	    background-color:#00ff99;
+        border-radius:6px;
+        box-shadow:0px 7px 0px #00b4a7;
+        margin:10px 20px 20px 338px;
+        padding: 5px 9px;
+        text-decoration:none;     	
+}
+      	
+      	.BotonListo:hover
+      	{       	  
+      	  box-shadow:0px 5px 0px #7a7a7a;
+    	  padding: 3px 9px;
+    	       	  
+      	}
+.CalendarProductos
+{
+	font-family:Century Gothic;
+	margin:0px 10px 0px 5px;
+}
+	.CalendarProductos:focus{
+
+   border:1px solid #00ff99;
+	}
+.AlignHtml
+{
+	margin: 0px 0px 0px 300px;
+}
+.AlignHtml2{
+	margin: 0px 0px 0px 140px;
+	width: 34px;
+}
+.AlignHtml2{
+	margin: 0px 0px 0px 140px;
+	width: 34px;
+}
+.hyperlinCrearEmpresa 
+
+ {      background-color :#00ff99;
+        border-radius:6px;
+        box-shadow:0px 5px 0px #00b4a7;
+        /*display:inline-block;   border-bottom-style:inset;*/
+        font-family:Century Gothic;
+        margin:0px 2px 0px 5px;
+        text-decoration:none;
+         padding: 5px 9px;
+ }
+      	.hyperlinCrearEmpresa:link
+      	{
+      		color:#ffffff;
+      		}
+      	.hyperlinCrearEmpresa:hover
+      	{       	  
+      	  
+      	  box-shadow:0px 5px 0px #7a7a7a;
+    	  padding: 3px 9px;
+    	  text-decoration:underline;
+      	  
+      	}
+      	.hyperlinCrearEmpresa:visited
+      	{
+      		color:#7100ec;
+      		}
+      	.hyperlinCrearEmpresa:active
+      	{
+      		background-color:#82ffc4;
+      		}
+.GV_Favoritos
+{
+	margin:5px 0px 0px 30px;
+	}      		
+	.CajaNotificacion
+{
+		margin:0px 0px 0px 215px;
+		padding:10px;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing:border-box;
+		box-sizing:border-box;
+		resize:none;
+}
+		.CajaNotificacion:focus
+		{
+			border:1px solid #00ff99;
+		
+		}
+.BotonCajaNotificacion
+{
+        
+	    background-color:#00ff99;
+        border-radius:6px;
+        box-shadow:0px 7px 0px #00b4a7;
+        margin:0px 0px 0px 40px;
+        padding: 5px 9px;
+        text-decoration:none;     	
+}
+      	
+      	.BotonCajaNotificacion:hover
+      	{       	  
+      	  box-shadow:0px 5px 0px #7a7a7a;
+    	  padding: 3px 9px;
+    	       	  
+      	}
+    .AlignHtmlGVNotifica
+{
+	margin: 0px 0px 0px 215px;
+}
+    .AlignHtmlGVinfoadminimagen
+{
+	margin: 0px 0px 0px 140px;
+}
+    .AlignHtmlGVinfoadmin
+{
+	margin: 0px 0px 0px 100px;
+}

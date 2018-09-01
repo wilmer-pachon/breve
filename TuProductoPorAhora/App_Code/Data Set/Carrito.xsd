@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="Carrito" targetNamespace="http://tempuri.org/Carrito.xsd" xmlns:mstns="http://tempuri.org/Carrito.xsd" xmlns="http://tempuri.org/Carrito.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="Carrito" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="Carrito" msprop:Generator_DataSetName="Carrito">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Carrito" msprop:Generator_UserTableName="Carrito" msprop:Generator_RowDeletedName="CarritoRowDeleted" msprop:Generator_RowChangedName="CarritoRowChanged" msprop:Generator_RowClassName="CarritoRow" msprop:Generator_RowChangingName="CarritoRowChanging" msprop:Generator_RowEvArgName="CarritoRowChangeEvent" msprop:Generator_RowEvHandlerName="CarritoRowChangeEventHandler" msprop:Generator_TableClassName="CarritoDataTable" msprop:Generator_TableVarName="tableCarrito" msprop:Generator_RowDeletingName="CarritoRowDeleting" msprop:Generator_TablePropName="_Carrito">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="img_perfil" msprop:Generator_UserColumnName="img_perfil" msprop:Generator_ColumnPropNameInRow="img_perfil" msprop:Generator_ColumnVarNameInTable="columnimg_perfil" msprop:Generator_ColumnPropNameInTable="img_perfilColumn" type="xs:base64Binary" minOccurs="0" />
+              <xs:element name="usuario" msprop:Generator_UserColumnName="usuario" msprop:Generator_ColumnPropNameInRow="usuario" msprop:Generator_ColumnVarNameInTable="columnusuario" msprop:Generator_ColumnPropNameInTable="usuarioColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="producto" msprop:Generator_UserColumnName="producto" msprop:Generator_ColumnPropNameInRow="producto" msprop:Generator_ColumnVarNameInTable="columnproducto" msprop:Generator_ColumnPropNameInTable="productoColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="img_producto" msprop:Generator_UserColumnName="img_producto" msprop:Generator_ColumnPropNameInRow="img_producto" msprop:Generator_ColumnVarNameInTable="columnimg_producto" msprop:Generator_ColumnPropNameInTable="img_productoColumn" type="xs:base64Binary" minOccurs="0" />
+              <xs:element name="cantidad" msprop:Generator_UserColumnName="cantidad" msprop:Generator_ColumnPropNameInRow="cantidad" msprop:Generator_ColumnVarNameInTable="columncantidad" msprop:Generator_ColumnPropNameInTable="cantidadColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="precio_act" msprop:Generator_UserColumnName="precio_act" msprop:Generator_ColumnPropNameInRow="precio_act" msprop:Generator_ColumnVarNameInTable="columnprecio_act" msprop:Generator_ColumnPropNameInTable="precio_actColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="precio_total" msprop:Generator_UserColumnName="precio_total" msprop:Generator_ColumnPropNameInRow="precio_total" msprop:Generator_ColumnVarNameInTable="columnprecio_total" msprop:Generator_ColumnPropNameInTable="precio_totalColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="id_user" msprop:Generator_UserColumnName="id_user" msprop:Generator_ColumnPropNameInRow="id_user" msprop:Generator_ColumnVarNameInTable="columnid_user" msprop:Generator_ColumnPropNameInTable="id_userColumn" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

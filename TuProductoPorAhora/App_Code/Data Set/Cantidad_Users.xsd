@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="Cantidad_Users" targetNamespace="http://tempuri.org/Cantidad_Users.xsd" xmlns:mstns="http://tempuri.org/Cantidad_Users.xsd" xmlns="http://tempuri.org/Cantidad_Users.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="Cantidad_Users" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="Cantidad_Users" msprop:Generator_DataSetName="Cantidad_Users">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Datos_Users" msprop:Generator_UserTableName="Datos_Users" msprop:Generator_RowDeletedName="Datos_UsersRowDeleted" msprop:Generator_RowChangedName="Datos_UsersRowChanged" msprop:Generator_RowClassName="Datos_UsersRow" msprop:Generator_RowChangingName="Datos_UsersRowChanging" msprop:Generator_RowEvArgName="Datos_UsersRowChangeEvent" msprop:Generator_RowEvHandlerName="Datos_UsersRowChangeEventHandler" msprop:Generator_TableClassName="Datos_UsersDataTable" msprop:Generator_TableVarName="tableDatos_Users" msprop:Generator_RowDeletingName="Datos_UsersRowDeleting" msprop:Generator_TablePropName="Datos_Users">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="id_user" msprop:Generator_UserColumnName="id_user" msprop:Generator_ColumnPropNameInRow="id_user" msprop:Generator_ColumnVarNameInTable="columnid_user" msprop:Generator_ColumnPropNameInTable="id_userColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="nombre" msprop:Generator_UserColumnName="nombre" msprop:Generator_ColumnPropNameInRow="nombre" msprop:Generator_ColumnVarNameInTable="columnnombre" msprop:Generator_ColumnPropNameInTable="nombreColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="apellido" msprop:Generator_UserColumnName="apellido" msprop:Generator_ColumnPropNameInRow="apellido" msprop:Generator_ColumnVarNameInTable="columnapellido" msprop:Generator_ColumnPropNameInTable="apellidoColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="usuario" msprop:Generator_UserColumnName="usuario" msprop:Generator_ColumnPropNameInRow="usuario" msprop:Generator_ColumnVarNameInTable="columnusuario" msprop:Generator_ColumnPropNameInTable="usuarioColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="correo" msprop:Generator_UserColumnName="correo" msprop:Generator_ColumnPropNameInRow="correo" msprop:Generator_ColumnVarNameInTable="columncorreo" msprop:Generator_ColumnPropNameInTable="correoColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="sexo" msprop:Generator_UserColumnName="sexo" msprop:Generator_ColumnPropNameInRow="sexo" msprop:Generator_ColumnVarNameInTable="columnsexo" msprop:Generator_ColumnPropNameInTable="sexoColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="ciudad" msprop:Generator_UserColumnName="ciudad" msprop:Generator_ColumnPropNameInRow="ciudad" msprop:Generator_ColumnVarNameInTable="columnciudad" msprop:Generator_ColumnPropNameInTable="ciudadColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="id_rol" msprop:Generator_UserColumnName="id_rol" msprop:Generator_ColumnPropNameInRow="id_rol" msprop:Generator_ColumnVarNameInTable="columnid_rol" msprop:Generator_ColumnPropNameInTable="id_rolColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="img_perfil" msprop:Generator_UserColumnName="img_perfil" msprop:Generator_ColumnPropNameInRow="img_perfil" msprop:Generator_ColumnVarNameInTable="columnimg_perfil" msprop:Generator_ColumnPropNameInTable="img_perfilColumn" type="xs:base64Binary" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
